@@ -1,0 +1,198 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;  
+}
+
+header{
+    background-color : rgba(0, 0, 0, 0.97);
+    padding:0;
+    margin: 0;
+    position: sticky;
+    top: 0;
+    z-index: 1;
+}
+
+.headerTopRow{
+    display: flex; 
+    justify-content: space-around;
+    bottom: 1rem;
+    background: black;
+    padding: 1rem ;
+    border-bottom: 1px solid $color-primario;   
+
+    .headerTopLink{
+        color: #dfe6e9;  
+        text-decoration: none;
+      }
+
+      .containerHeader{    
+        width: 80%;
+        max-width: 100%;
+        margin: 0 auto; 
+    }
+}
+
+.logo:hover{
+    opacity: 0.60;
+}
+
+.navbar-brand{    
+    color: beige;
+}
+
+.buttonStyle:focus{
+    box-shadow:none ;
+}
+
+.navbar-nav{
+    .nav-link{
+        color: beige;
+    }
+}
+
+.cardStyle{
+    height: 35rem;
+    width: 16rem;
+    margin: 3rem 0 ;
+    
+
+
+}
+
+.cardStyle-2{
+    height: 35rem;
+    width: 16rem;
+    margin: 1.5rem 0 ;
+    padding: 0;
+}
+
+.cardStyle-3{
+    
+    height: 35rem;
+    width: 16rem;
+    margin: 5rem 0;
+    text-transform: uppercase;
+
+}
+
+.title{
+    background: url(/img/title-bg.png)no-repeat;
+    text-align: center;
+    margin: 2rem 0 ;
+    padding: 1.5rem 0;
+    font-size: 2.5rem;
+
+}
+
+.textStyle{
+    font-size: 20px;
+}
+
+.fraseSection{
+    background-image:linear-gradient(rgba(0,0,0,0.5),
+    rgba(0,0,0,0.5)), url(/img/foto3.jpg);
+    min-height: 600px;
+    max-width: 100%;
+    background-repeat: no-repeat; 
+    background-position: center;
+    background-attachment:fixed;
+    display: flex;
+    justify-content: center; 
+  
+    .fraseCol{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+     }
+     
+     .frase{
+         text-transform: uppercase;
+         color: white;
+         font-size: 4rem;
+     }
+
+     .text{
+         color: white;
+         text-align: center;
+         text-transform: uppercase;
+         font-size: 2rem;
+         
+     }
+}
+
+.styleCard{
+    margin: 4rem 0;
+}
+
+.mapa{
+    display: flex;
+    justify-content: center;
+    margin: 2rem 0;
+}
+
+  /* Footer */
+
+  .footerStyle{
+    padding:3rem 4rem;
+    background-color: black;
+
+    .containerFooter{
+        width: 100%;
+        max-width: 100%;
+       
+    }
+    
+    .footerSm{
+        color: rgb(233, 199, 10);
+    }
+    
+    .rowFooter{
+        display: flex;
+        justify-content:center;
+        align-content: center;
+        text-align: center;
+       
+        
+    }
+    
+    .rowFooter a{
+        color: #333333;
+        text-transform: uppercase;
+        
+    }
+    
+    .rowFooter a i{
+        font-size: 1rem;
+        margin: 0 2rem;
+        font-size: 1.2rem;
+    }
+    
+    .parrafoFooter{
+        text-transform: uppercase;
+        opacity: 0.7;
+    }
+    
+    .rowFooter a:hover{
+        
+        opacity: 0.5;
+    }
+    
+    .bottomFooter{
+        padding: 1rem 0;
+    }
+    
+    .rowCopy{
+        text-align: center;
+        color: #212121;
+    }
+    
+    .rowCopy a{
+        color: rgb(233, 199, 10);
+    }
+    
+    .rowCopy a:hover{
+        opacity: 0.5;
+    }
+
+}
